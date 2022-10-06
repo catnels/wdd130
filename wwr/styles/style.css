@@ -11,7 +11,7 @@
 .button-box{
     text-align: center;
 } 
-main section {
+main section{
     text-align: center;    
 }
 #background{
@@ -72,7 +72,7 @@ footer a{
 footer a:hover{
     color: white;
 }
-.icon{
+.logo, .icon{
     width: 80px;
 }
 #hero-img{
@@ -84,4 +84,5 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+
 

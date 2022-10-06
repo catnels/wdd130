@@ -8,9 +8,12 @@ a {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
 }
-h1 {color: steelblue;
+h1 {
+    color: steelblue;
     text-align: center;
+    margin: 50px 0;
 }
 img{
     width: 80%;
@@ -21,6 +24,7 @@ img{
 p{
     padding: 10x;
     width: 80%;
+    margin: 50px;
 }
 .main-para {
     font-size: 1.5em;
@@ -38,13 +42,22 @@ main p {
 footer {
     text-align: center;
     width: 80%;
-    margin: 0 auto
-}
+    margin: 0 auto;
+    background-color: steelblue;
+    color: white;
+    }
 footer p{
     font-size: 20px;
     margin: 20-x auto;
+    padding: 25px;
 }
 a:hover {
     background-color: white;
     color: steelblue;
+}
+nav{
+    padding: 25px;
+}
+body{
+    margin: 0;
 }
