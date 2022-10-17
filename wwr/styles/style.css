@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Domine:wght@700&family=Inter+Tight:wght@400;500;900&family=Nanum+Myeongjo:wght@800&family=Noto+Sans&family=Nunito+Sans:ital,wght@0,400;0,900;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:ital,wght@0,400;0,900;1,200&display=swap');
 
 #content{
     max-width: 1600px;
@@ -6,11 +6,11 @@
 }
 #hero-msg h1{
     text-align: center;
-    font-family:'DM Serif Display', 'Domine', 'Nanum Myeongjo'; 
+    font-family:'DM Serif Display', 'Baskerville', 'serif'; 
 }
 #hero-msg h4{
     text-align: center;
-    font-family:'DM Serif Display', 'Domine', 'Nanum Myeongjo';
+    font-family:'DM Serif Display', 'Baskerville', 'serif'; 
 } 
 .button-box{
     text-align: center;
@@ -23,7 +23,7 @@ main section{
 }
 body{
     background-color:white;
-    font-family: 'Nunito Sans', 'Noto Sans', 'Inter Tight';
+    font-family: 'Nunito Sans', 'Helvetica', 'sans-serif';
     font-size: 22px; 
     margin: 0;
     padding: 0;   
@@ -92,6 +92,7 @@ footer a{
 }
 footer a:hover{
     color: white;
+    text-decoration: underline ;
 }
 .logo, .icon{
     width: 80px;
@@ -101,9 +102,6 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
-}
-footer p a:hover{
-    text-decoration: underline;
 }
 h2{
     margin: 0;
