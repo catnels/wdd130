@@ -33,3 +33,17 @@ p{
     grid-column: 3/4;
     text-align: center;
 }
+body{
+    background-color: navy;
+}
+.content{
+    background-color: white;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+img{
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
