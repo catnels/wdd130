@@ -203,6 +203,7 @@ p{
 .faqs_text{
     margin: 0 100px;
     color: #264653;
+    text-align: left;
 }
 .faqs_heading{
     margin: 50px 0;
@@ -210,12 +211,15 @@ p{
 .footer_margin{
     margin-top: 50px;
 }
-#main_image{
+#hero_img{
     width: 100%;
 }
 h1{
     text-align: center;
     font-family:'DM Serif Display', 'Baskerville', 'serif';
+}
+.faqs_text section p, .faqs_text section h3{
+    text-align: left;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
