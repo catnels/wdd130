@@ -5,6 +5,8 @@
   margin: 0 auto;
 }
 
+/****************HOME PAGE**************?
+
 /*header*/
 
 
@@ -223,6 +225,52 @@ footer p{
     grid-column: 2/4;
 }
 
+
+/******************ABOUT MAMA******************/
+
+.cathy_matt{
+  border: 15px solid #f5929b;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 75px;
+}
+.about_mama p{
+  font-family: "klee one", "arial", "sanserif";
+  font-size: 1.5em;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #2d353b;
+}
+
+/***************************FAQS PAGE******************************/
+
+.faqs_headings h2, h3{
+  font-family: "rammetto one", "baskerville", "serif";
+  color: #2d353b;
+}
+.faqs_headings h2{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 75px;
+}
+.faqs_text p{
+  font-family: "klee one", "arial", "sanserif";
+  margin: auto 100px;
+  font-size: 1.5em;
+}
+.faqs_headings h3{
+  margin-bottom: 25px;
+  font-size: 1.5em;
+  margin-left: 100px;
+}
+.contact_info_img{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
 @media screen and (max-width: 480px) {
   header,
   nav,
@@ -230,3 +278,4 @@ footer p{
     display: block;
   }
 }
+
