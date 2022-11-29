@@ -274,7 +274,11 @@ footer p{
 }
 .faq_button{
   background-color: #f3c6ca;
+  border-radius: 15px;
+  list-style-type: none;
+  line-height: 6em;
 }
+
 
 
 @media screen and (max-width: 480px) {
