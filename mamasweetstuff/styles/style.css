@@ -174,10 +174,11 @@ nav a:hover{
   font-size: 1.5em;
 }
 
+
 /*footer*/
 
 footer{
-  background: #f3c5c8;
+  background: #f3c6ca;
   font-family: "klee one", "arial", "sanserif";
   display: flex;
   flex-direction: column;
@@ -246,13 +247,11 @@ footer p{
 
 /***************************FAQS PAGE******************************/
 
-.faqs_headings h2, h3{
+.faqs_headings h2{
   font-family: "rammetto one", "baskerville", "serif";
   color: #2d353b;
-}
-.faqs_headings h2{
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 75px;
 }
 .faqs_text p{
@@ -261,14 +260,20 @@ footer p{
   font-size: 1.5em;
 }
 .faqs_headings h3{
+  font-family: "rammetto one", "baskerville", "serif";
   margin-bottom: 25px;
   font-size: 1.5em;
   margin-left: 100px;
+  color: #2d353b;
+  font-kerning: normal;
 }
 .contact_info_img{
   display: block;
   margin: 0 auto;
   width: 30%;
+}
+.faq_button{
+  background-color: #f3c6ca;
 }
 
 
